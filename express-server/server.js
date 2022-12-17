@@ -7,7 +7,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Welcome to The Todo app");
 });
-
+// server for backend
 app.get("/todos", (req, res) => {
   res.send(todoList);
 });
